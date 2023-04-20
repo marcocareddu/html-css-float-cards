@@ -31,13 +31,17 @@
     text-align: center;
 }
 
-.padding-top-20 {
-    padding-top: 20px;
+.padding-top-30 {
+    padding-top: 30px;
 }
 
 /* GENERICS */
 body {
     font-family: 'Fredoka', sans-serif;
+}
+
+article {
+    padding-bottom: 40px;
 }
 
 /* HEADER */
@@ -51,6 +55,12 @@ body {
 div > img {
     height: 100px;
     float: left;
+    margin-right: 10px;
+}
+
+
+.cards, div > img {
+    border-radius: 15px;
 }
 
 .cards {
@@ -63,15 +73,22 @@ div > img {
 }
 
 .card-name {
-
+    padding-top: 15px;
+    font-size: 1.2rem;
 }
 
 .card-profes {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: normal;
+    padding
 }
 
 .card-mail {
     text-decoration: none;
     color: var(--mail-color);
+}
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
 }
