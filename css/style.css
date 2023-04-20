@@ -1,5 +1,4 @@
 /* CSS RESET */
-
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +10,20 @@
     --title-color: #e42a6c;
     --bgc-card: #000;
     --mail-color: #1c86c6;
+    --title-size: 1.3rem;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
 
 .container {
-    max-width: 1080px;
+    max-width: 1200px;
     margin: 0 auto;
 
-    /* DA ELIMINARE */
+    /* ! DA ELIMINARE */
     background-color: aqua;
 }
 
@@ -26,11 +31,47 @@
     text-align: center;
 }
 
-.title {
-    color: var(--title-color)
+.padding-top-20 {
+    padding-top: 20px;
 }
 
-
+/* GENERICS */
 body {
     font-family: 'Fredoka', sans-serif;
+}
+
+/* HEADER */
+.title {
+    color: var(--title-color);
+    font-size: var(--title-size);
+}
+
+/* CARDS */
+
+div > img {
+    height: 100px;
+    float: left;
+}
+
+.cards {
+    float: left;
+    text-align: left;
+    color: #fff;
+    width: calc(100% / 3 - 20px);
+    background-color: var(--bgc-card);
+    margin: 10px;
+}
+
+.card-name {
+
+}
+
+.card-profes {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.card-mail {
+    text-decoration: none;
+    color: var(--mail-color);
 }
