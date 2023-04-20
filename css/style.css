@@ -9,7 +9,7 @@
 :root {
     --title-color: #e42a6c;
     --bgc-card: #000;
-    --mail-color: #1c86c6;
+    --mail-color: #66ceff;
     --title-size: 1.3rem;
 }
 
@@ -22,9 +22,6 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-
-    /* ! DA ELIMINARE */
-    background-color: aqua;
 }
 
 .centered {
@@ -51,16 +48,10 @@ article {
 }
 
 /* CARDS */
-
 div > img {
     height: 100px;
     float: left;
     margin-right: 10px;
-}
-
-
-.cards, div > img {
-    border-radius: 15px;
 }
 
 .cards {
@@ -72,15 +63,18 @@ div > img {
     margin: 10px;
 }
 
+.cards, div > img {
+    border-radius: 15px;
+}
+
 .card-name {
-    padding-top: 15px;
+    padding-top: 20px;
     font-size: 1.2rem;
 }
 
 .card-profes {
     font-size: 0.9rem;
     font-weight: normal;
-    padding
 }
 
 .card-mail {
