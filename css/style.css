@@ -6,6 +6,31 @@
     box-sizing: border-box;
 }
 
-/* Color h1 #e42a6c
-Color mail #1c86c6
-Font Fredoka */
+/* UTILITY */
+:root {
+    --title-color: #e42a6c;
+    --bgc-card: #000;
+    --mail-color: #1c86c6;
+}
+
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+
+    /* DA ELIMINARE */
+    background-color: aqua;
+}
+
+.centered {
+    text-align: center;
+}
+
+.title {
+    color: var(--title-color)
+}
+
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
